@@ -1,0 +1,237 @@
+body {
+    margin-top: 30px;
+    background-color: #f8fafb;
+}
+.header-icon {
+    height: 50px;
+    width: 100%;
+    background-image: url(/assets/images/comx.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.register-new-account-div {
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 450px;
+    width: 500px;
+    background-color: white;
+}
+.register1 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.sign-up-for-an-account {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select-category {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.individual-box {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 15px;
+    text-align: center;
+    width: 95px;
+    border: 1px solid #e8ecef;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.corporate-box {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 95px;
+    border: 1px solid #e8ecef;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.individual-box:hover {
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+.corporate-box:hover {
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+.company-name {
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#email {
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #e8ecef;
+}
+.type-of-business {
+    display: inline-block;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.date-of-incorporation {
+    display: inline-block;
+    margin-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#type-of-business {
+    display: inline-block;
+    margin-left: 40px;
+    width: 193px;
+    padding: 7px;
+    border: 1px solid #e8ecef;
+}
+#date-of-incorporation {
+    display: inline-block;
+    width: 193px;
+    padding: 6px;
+    border: 1px solid #e8ecef;
+}
+
+/* REMEMBER: type-of-business & date-of-incorporation both have class and id bearing same name. */
+
+.next-step-1 {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 85px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.a-next-step {
+    text-decoration: none;
+    color: red;
+}
+
+/* AFEX2 MODIFICATIONS TO CSS */
+
+.company-email-afex2 {
+    margin-left: 40px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.afex2-p-password {
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#afex2-input-password {
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #e8ecef;
+}
+.confirm-password-p-afex2 {
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#afex2-confirm-password {
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #e8ecef;
+}
+
+/* AFEX3 MODIFICATIONS TO CSS */
+
+.enter-4-digit-code {
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.resend-code {
+    margin-left: 40px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+.verify-via-call {
+    margin-left: 40px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+.back-to-afex2 {
+    width: 40px;
+    padding: 5px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 150px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.a-finish {
+    display: inline-block;
+    width: 40px;
+    padding: 5px;
+    margin-left: 300px;
+    margin-top: 150px;
+    text-decoration: none;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* AFEX4 MODIFICATIONS TO CSS FINAL PAGE */
+
+
+.finish-image {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 270px;
+    width: 250px;
+    border-radius: 100px;
+    background-image: url(/assets/images/finished-image.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.registeration-complete {
+    padding-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.you-may-proceed-to-dashboard {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+.go-to-dashboard {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
